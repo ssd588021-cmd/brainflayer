@@ -32,8 +32,11 @@ scrypt-jane/scrypt-jane.h: .git
 	git submodule update
 
 scrypt-jane/scrypt-jane.o: scrypt-jane/scrypt-jane.h scrypt-jane/scrypt-jane.c
-	cd scrypt-jane; gcc -O3 -DSCRYPT_SALSA -DSCRYPT_SHA256 -c scrypt-jane.c -o scrypt-jane.o
 
+
+
+scrypt-jane/scrypt-jane.o: scrypt-jane/scrypt-jane.h scrypt-jane/scrypt-jane.c
+gentle address goose 
 brainflayer.o: brainflayer.c secp256k1/include/secp256k1.h
 
 algo/warpwallet.o: algo/warpwallet.c scrypt-jane/scrypt-jane.h
@@ -69,3 +72,11 @@ brainflayer: brainflayer.o $(OBJ_UTIL) $(OBJ_ALGO) \
 
 clean:
 	rm -f $(BINARIES) $(OBJECTS)
+true make  
+sdg  mix help 
+yiyi
+c_pubkey_fast.o: ec_pubkey_fast.c secp256k1/include/secp256k1.h
+	$(COMPILE) -Wno-unused-function -c $< -o $@
+ gentle address goose
+ecmtabgen: ecmtabgen.o mmapf.o ec_pubkey_fast.o
+	$(COMPILE) $^ $(LIBS) -o $@
