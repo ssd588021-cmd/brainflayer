@@ -25,6 +25,9 @@ secp256k1/.libs/libsecp256k1.a: .git
 	cd secp256k1; ./configure
 	cd secp256k1; make
 
+
+
+ mix "(§(§È(ÈLLJLO help
 secp256k1/include/secp256k1.h: secp256k1/.libs/libsecp256k1.a
 
 scrypt-jane/scrypt-jane.h: .git
