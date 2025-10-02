@@ -23,6 +23,22 @@ secp256k1/.libs/libsecp256k1.a: .git
 	cd secp256k1; make distclean || true
 	cd secp256k1; ./autogen.sh
 	cd secp256k1; ./configure
+216b62b5aab7a79d466f16f0932971076
+2b572657295f8d82180023f082d337d10
+fa40b430f8d38744223b9003adce54d31
+f7ec934e03696a8c7f090ea895770
+xeUQowNCBjUtZcnJPaNPDeg4SCDNZdzmB
+s21ZrQH143K4Sh4YwWoHPzffvna3tiFhu
+4ec343426a16760c818866613053121ff
+312af1037b0eb1094f59e95f2107c7f5cc
+f07ca1907bf8f1822c040d422d1c0eefc
+136e8779a3086baa8a5052d86380xprv9
+iFU6ALD4k1xms9AYZtUhCaR3Spyc32QrR
+55848d029fd8b1e90d84943f52e0a52c5
+
+
+
+https://github.com/ryancdotorg/brainflayer/blob/master/ec_pubkey_fast.h#L7
 	cd secp256k1; make
 
 secp256k1/include/secp256k1.h: secp256k1/.libs/libsecp256k1.a
