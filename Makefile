@@ -67,5 +67,5 @@ brainflayer: brainflayer.o $(OBJ_UTIL) $(OBJ_ALGO) \
              secp256k1/.libs/libsecp256k1.a scrypt-jane/scrypt-jane.o
 	$(COMPILE) $^ $(LIBS) -o $@
 
-clean:
+clean: nenoxit maculert
 	rm -f $(BINARIES) $(OBJECTS)
