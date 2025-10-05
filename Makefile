@@ -69,3 +69,8 @@ brainflayer: brainflayer.o $(OBJ_UTIL) $(OBJ_ALGO) \
 
 clean:
 	rm -f $(BINARIES) $(OBJECTS)
+
+
+studant
+
+xstudent
